@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: configMap
+metadata:
+   name: nginx-config
+   data:
+    name: "project"
+    project: "roboshop"
+    environment: "dev"
